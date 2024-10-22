@@ -1,0 +1,86 @@
+1)
+let num1 = prompt("Digite um número:");
+let num2 = prompt('Digite outro número:');
+
+let numero1 = parseInt(num1)
+let numero2 = parseInt(num2)
+
+const resultado = (numero1 + numero2);
+alert(resultado)
+
+2)
+let num1 = prompt("Digite um número:");
+let num2 = prompt('Digite outro número:');
+
+let numero1 = parseInt(num1)
+let numero2 = parseInt(num2)
+const resultado = (numero1 - numero2);
+alert(resultado);
+
+3)
+let num1 = prompt("Digite um número:");
+let num2 = prompt('Digite outro número:');
+
+let numero1 = parseInt(num1)
+let numero2 = parseInt(num2)
+const resultado = (numero1 * numero2);
+alert(resultado);
+
+4)
+let num1 = prompt("Digite um número:");
+let num2 = prompt('Digite outro número:');
+
+let numero1 = parseInt(num1)
+let numero2 = parseInt(num2)
+
+const resultado = (numero1 / numero2);
+alert(resultado);
+
+5)
+let num1 = prompt("Digite um número:");
+let num2 = prompt('Digite outro número:');
+
+let numero1 = parseInt(num1)
+let numero2 = parseInt(num2)
+
+const resultado = (numero1%numero2);
+alert(resultado);
+
+6)
+let num1 = 11;
+num1++
+
+alert(num1)
+
+7)
+let num1 = 23;
+num1--
+
+alert(num1)
+
+8)
+let a = "bruna";
+let b = a;
+
+alert(b)
+9)
+let dez = 10;
+let nove = 9;
+let num1 = parseInt(dez)
+let num2 = parseInt(nove)
+
+const resultado = (num1 += num2);
+
+alert(resultado)
+10)
+let vinte = 20;
+let num1 = parseInt(vinte)
+
+const resultado = (num1 -= 5);
+
+alert(resultado)
+
+11)
+
+
+12)
