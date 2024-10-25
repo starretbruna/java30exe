@@ -104,3 +104,100 @@ let num1 = parseInt(nove)
 const resultado = (num1 %= 3);
 
 alert(resultado)
+
+14)
+let num = prompt('digite um número')
+let valor = parseInt(num)
+
+ 
+if (valor < 0) {       
+alert('Número negativo');
+}else{ 
+ alert('Número positivo');
+}
+15)
+let num = prompt('digite um número')
+let valor = parseInt(num)
+ 
+
+if (valor %= 2) {       
+alert('Número impar');
+}else { 
+ alert('Número par');
+}
+
+16)
+let n1 = prompt('Digite um número:')
+let n2 = prompt('Digite outro número')
+let num1 = parseInt(n1)
+let num2 = parseInt(n2) 
+
+if (num1 > num2) {
+alert(n1 + ' é maior que ' + n2)
+} else if (num2 > num1) {
+alert(n2 + ' é maior que ' + n1)
+} else { 
+  alert('inválido')
+}
+
+17)
+let idade = prompt('Digite sua idade:')
+let num = parseInt(idade)
+
+
+if (num === 18 ) {
+alert('você tem 18 anos')
+} else if (num < 18) {
+alert('você é menor de idade')
+} else if (num > 18) {
+alert('você é maior de idade')
+} else { 
+  alert('inválido')
+}
+18)
+let numero = prompt('Digite um número:')
+let num = parseInt(numero)
+
+
+if (num <= 100 ) {
+alert('está entre o intervalo de 0 a 100')
+} else if (num > 100) {
+alert('não está entre o intervalo de 0 a 100')
+} else { 
+  alert('inválido')
+}
+
+19)
+let letra = prompt("Insira uma letra")
+
+let vogais = ["a", "e", "i", "o", "u"]
+
+if (vogais.ind
+exOf(letra.toLowerCase()) !== -1) {
+  alert("Vogal")
+} else {
+  alert("Consoante")
+}
+
+20)
+(>>necessário corrigir<<)
+
+let n1 = prompt('Digite um número:')
+let n2 = prompt('Digite outro número')
+let n3 = prompt('Digite mais um número:')
+let num1 = parseInt(n1)
+let num2 = parseInt(n2) 
+let num3 = parseInt(n3)
+
+if (num1 >>
+ num2 || num3) {
+alert(num1 + ' é o número maior')
+} else if (num2 > num1 || num3)  {
+alert(num2 + ' é o número maior')
+ } else if (num3 > num1 || num2)  {
+alert(num3 + ' é o número maior')
+} else { 
+  alert('inválido')
+}
+
+
